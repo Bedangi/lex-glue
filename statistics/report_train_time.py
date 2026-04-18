@@ -6,7 +6,7 @@ import datetime
 
 def main():
 
-    for dataset in ['ecthr_a', 'ecthr_b', 'scotus', 'eurlex', 'ledgar', 'unfair_tos']:
+    for dataset in ['unfair_tos']:
         print(f'{dataset.upper()}')
         print('-'*100)
         BASE_DIR = f'logs/{dataset}'

@@ -12,7 +12,7 @@ def main():
     config = parser.parse_args()
 
     MODEL = config.model
-    TASKS = ['ecthr_a', 'ecthr_b', 'scotus', 'eurlex', 'ledgar', 'unfair_tos', 'case_hold']
+    TASKS = ['unfair_tos']
     for task in TASKS:
         print('-' * 100)
         print(task.upper())

@@ -79,29 +79,3 @@ with open('/Users/rwg642/PycharmProjects/LexGLUE/dataloaders/unfair_toc/unfair_t
             out_file.write(json.dumps(record) + '\n')
 
 print()
-# import numpy as np
-# import matplotlib.pyplot as plt
-
-# ecthr = [71.5, 17.0, 15.5, 18.5, 14.7]
-# ledgar = [0.1, 81.1, 0.1, 81.1]
-# ecthr_mean = np.mean(ecthr)
-# ledgar_mean = np.mean(ledgar)
-#
-# ecthr_max = np.max(ecthr)
-# ledgar_max= np.max(ledgar)
-#
-# ecthr_std = np.std(ecthr)
-# ledgar_std = np.std(ledgar)
-#
-#
-# fig, ax = plt.subplots()
-# ax.bar(np.arange(2), [ecthr_max, ledgar_max], align='center', alpha=0.3, capsize=10)
-# ax.bar(np.arange(2), [ecthr_mean, ledgar_mean], yerr=[ecthr_std, ledgar_std], align='center', alpha=0.6, ecolor='black', capsize=10)
-# ax.set_ylabel('Macro-F1')
-# ax.set_xticks(np.arange(2))
-# ax.set_xticklabels(['ECtHR (Task A)', 'LEDGAR'])
-# ax.yaxis.grid(True)
-#
-# # Save the figure and show
-# plt.tight_layout()
-# plt.show()

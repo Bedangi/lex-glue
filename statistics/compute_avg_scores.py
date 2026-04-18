@@ -12,7 +12,7 @@ def main():
     parser = argparse.ArgumentParser()
 
     # Required arguments
-    parser.add_argument('--dataset',  default='scotus')
+    parser.add_argument('--dataset',  default='unfair_tos')
     parser.add_argument('--filter_outliers', default=True)
     parser.add_argument('--top_k', default=3)
     config = parser.parse_args()
